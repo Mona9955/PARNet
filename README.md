@@ -1,5 +1,6 @@
 # PARNet
 Source code for "Pose-Appearance Relational Modeling for Video Action Recognition"
+
 The pre-trained inception-v2 checkpoints can be downloaded from https://github.com/tensorflow/models/tree/master/research/slim
 
 environments:
