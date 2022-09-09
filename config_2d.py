@@ -66,9 +66,9 @@ LR_RATE = 1e-3  #1e-4
 
 WARM_UP_STEPS = 200
 
-MODEL_DIR = './checkpoint_ntu'
+MODEL_DIR = './checkpoint_ucf101'
 
-PRETRAINED_DIR = "/home/mengmeng/project/PAV/inception_v2.ckpt"  #'./inception_v2.ckpt'
+PRETRAINED_DIR = './inception_v2.ckpt'
 
 CKPT_DIR = ''
 
@@ -80,7 +80,7 @@ TEST_PERIOD = PERIOD
 
 SUMMARY_PERIOD = PERIOD
 
-MAX_PEOPLE = 2  #4
+MAX_PEOPLE = 4  #4,2
 
 MAX_POINTS = 14
 
