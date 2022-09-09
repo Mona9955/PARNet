@@ -1,7 +1,7 @@
 # PARNet
 Source code for "Pose-Appearance Relational Modeling for Video Action Recognition"
 
-The pre-trained inception-v2 checkpoints can be downloaded from http://download.tensorflow.org/models/inception_v2_2016_08_28.tar.gz
+The pre-trained inception-v2 checkpoint can be downloaded from http://download.tensorflow.org/models/inception_v2_2016_08_28.tar.gz
 
 environments:
 
