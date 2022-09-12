@@ -96,7 +96,7 @@ class LstmCellDropout(LayerRNNCell):
         return new_h, new_state
 
 
-def Part_Action_Rec(coords, cnn_map, is_training=True, decoder_size=cfg.DECODER_SIZE, lstm_size=cfg.LSTM_SIZE, attn_len=4, part_hidden_size = 32, part_decoder_size = 100, cell_dropout_rate=0.2, reuse=tf.compat.v1.AUTO_REUSE):
+def Part_Action_Rec(coords, cnn_map, is_training=True, decoder_size=cfg.DECODER_SIZE, lstm_size=cfg.LSTM_SIZE, attn_len=5, part_hidden_size = 32, part_decoder_size = 100, cell_dropout_rate=0.2, reuse=tf.compat.v1.AUTO_REUSE):
 
     with tf.compat.v1.variable_scope('att_rnn_act_rec', reuse=reuse) as scope:
         regularizer = slim.l2_regularizer(cfg.REGULARIZATION_RATE)
